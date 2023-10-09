@@ -22,4 +22,8 @@ public class Calculator {
         for (int i = 1; i < list.size(); i++) result = result / list.get(i).doubleValue();
         return  result;
     }
+    public  Integer binar(int n) {
+        String binary = Integer.toBinaryString(n);
+        return Integer.valueOf(binary);
+    }
 }
